@@ -1,0 +1,10 @@
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+[color]
+    ui = auto
+[user]
+    name = Ian Lunderskov
+    email = ilunderskov@gmail.com
+[github]
+    username = ilunderskov
