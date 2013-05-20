@@ -1,0 +1,13 @@
+*.sw[nop]
+.vimrc
+.svn
+
+# Not tracking logs
+log/*.log
+
+
+# Folder view and thumbnail files
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
