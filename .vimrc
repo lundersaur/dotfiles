@@ -113,3 +113,5 @@ imap <F1> <Esc>
 set nobackup
 set noswapfile
 
+" Hit ESC to clear highlighting after search
+nnoremap <esc> :noh<return><esc>
