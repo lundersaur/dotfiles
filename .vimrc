@@ -15,9 +15,9 @@ set nocompatible
 " repeat.vim -- installed
 " Command-T -- (uninstalled)
 " Fugitive -- (uninstalled)
-" Rails.vim -- installed
+" Rails.vim -- (uninstalled)
 " NERDTree -- installed
-" vim-haml -- installed
+" vim-haml -- (uninstalled)
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -67,7 +67,7 @@ else
 endif
 
 " Spellcheck
-set spell
+"set spell
 
 " Always keep some context above/below current line
 set so=4
