@@ -114,4 +114,11 @@ set nobackup
 set noswapfile
 
 " Hit ESC to clear highlighting after search
-nnoremap <esc> :noh<return><esc>
+"nnoremap <esc> :noh<return><esc>
+
+" Force arrow keys to be arrow keys on Mac
+map OA <up>
+map ^[OB <down>
+map ^[OD <left>
+map ^[OC <right>
+
