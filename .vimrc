@@ -116,9 +116,17 @@ set noswapfile
 " Hit ESC to clear highlighting after search
 "nnoremap <esc> :noh<return><esc>
 
+" Open NERDTree with Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
+
 " Force arrow keys to be arrow keys on Mac
 map OA <up>
 map ^[OB <down>
 map ^[OD <left>
 map ^[OC <right>
 
+" Move between buffer splits with Alt+<arrow>
+nmap <silent> [1;2A :wincmd k<CR>
+nmap <silent> [1;2B :wincmd j<CR>
+nmap <silent> [1;2D :wincmd h<CR>
+nmap <silent> [1;2C :wincmd l<CR>
