@@ -14,10 +14,11 @@ set nocompatible
 " surround.vim -- installed
 " repeat.vim -- installed
 " Command-T -- (uninstalled)
-" Fugitive -- (uninstalled)
+" Fugitive -- installed
 " Rails.vim -- (uninstalled)
 " NERDTree -- installed
 " vim-haml -- (uninstalled)
+" vim-airline -- installed
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -29,7 +30,7 @@ set nu
 syntax on
 
 " Indent automatically depending on filetype
-filetype indent on
+filetype indent plugin on
 
 " Automaticaly indent while writing
 set autoindent
@@ -130,3 +131,10 @@ nmap <silent> [1;2A :wincmd k<CR>
 nmap <silent> [1;2B :wincmd j<CR>
 nmap <silent> [1;2D :wincmd h<CR>
 nmap <silent> [1;2C :wincmd l<CR>
+
+" Allow undo's longer
+set undofile
+set undodir=$HOME/.vim/undo
+set undolevels=1000
+set undoreload=10000
+
