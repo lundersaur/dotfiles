@@ -22,9 +22,11 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
 # autojump-related (brew-installed)
+# brew install autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 # git autocompletion (brew-installed)
+# brew install bash-completion (after `git` is installed)
 source ~/.git-completion.bash
 
 # Run this to make git logs nicer
