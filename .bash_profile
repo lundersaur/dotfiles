@@ -27,7 +27,9 @@ alias ls='ls -GFh'
 
 # git autocompletion (brew-installed)
 # brew install bash-completion (after `git` is installed)
-source ~/.git-completion.bash
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
+fi
 
 # Run this to make git logs nicer
 #git config --global alias.lg "log --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'"
