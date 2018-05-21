@@ -9,16 +9,16 @@
 set nocompatible
 
 " Plugins:
-" pathogen -- installed
-" matchit.vim -- installed
-" surround.vim -- installed
-" repeat.vim -- installed
+" pathogen -- installed (https://github.com/tpope/vim-pathogen)
+" matchit.vim -- (uninstalled)
+" surround.vim -- installed (https://github.com/tpope/vim-surround)
+" repeat.vim -- (uninstalled)
 " Command-T -- (uninstalled)
-" Fugitive -- installed
+" Fugitive -- installed (https://github.com/tpope/vim-fugitive)
 " Rails.vim -- (uninstalled)
-" NERDTree -- installed
+" NERDTree -- installed (git clone https://github.com/scrooloose/nerdtree.git)
 " vim-haml -- (uninstalled)
-" vim-airline -- installed
+" vim-airline -- installed (https://github.com/vim-airline/vim-airline)
 
 call pathogen#infect()
 call pathogen#helptags()
