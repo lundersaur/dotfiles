@@ -8,6 +8,7 @@ alias be="bundle exec"
 alias bet="RAILS_ENV=test bundle exec"
 alias lsl="ls -l"
 alias ls='ls -GFh'
+alias find3000='lsof -i tcp:3000'
 
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
