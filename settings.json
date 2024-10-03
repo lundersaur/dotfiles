@@ -20,5 +20,8 @@
   "editor.minimap.enabled": false,
 
   // Disable the `Run | Run in Debug` lines in test files.
-  "editor.codeLens": false
+  "editor.codeLens": false,
+
+  // Don't IMMEDIATELY pop up tool tips as cursor hits them
+  "editor.hover.delay": 1000
 }
