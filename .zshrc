@@ -27,3 +27,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 alias clean_house='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+
+echo 'export EDITOR="code --wait"'
